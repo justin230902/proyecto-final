@@ -16,6 +16,7 @@ namespace proyectofinalB
     public partial class interfaz : Form
     {
         private string _Usuario;
+        private Form inicio;
         public interfaz(string textuser)
         {
             InitializeComponent();
@@ -23,8 +24,11 @@ namespace proyectofinalB
         }
         
 
-        public interfaz()
+        public interfaz(Form inicio)
         {
+            InitializeComponent();
+            this.inicio = inicio;
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -71,5 +75,15 @@ namespace proyectofinalB
         {
 
         }
+
+        private void cerrarsesion_Click(object sender, EventArgs e)
+        {
+            
+            this.Close();
+            inicio.Show();
+
+
+        }
+       
     }
 }

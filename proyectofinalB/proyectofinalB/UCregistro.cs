@@ -10,33 +10,21 @@ using System.Windows.Forms;
 
 namespace proyectofinalB
 {
-    
-    public partial class registro : Form
+    public partial class UCregistro : UserControl
     {
-        
-        public registro()
+        public UCregistro()
         {
             InitializeComponent();
-
         }
 
-        private void registro_Load(object sender, EventArgs e)
+        private void UCregistro_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void btnlibrosatras_Click(object sender, EventArgs e)
-        {
-            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            
             this.Hide();
-            
-            
         }
     }
 }

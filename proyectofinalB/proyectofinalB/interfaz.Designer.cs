@@ -42,6 +42,7 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.cerrarsesion = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrardashboard)).BeginInit();
@@ -54,6 +55,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.PapayaWhip;
+            this.panel1.Controls.Add(this.cerrarsesion);
             this.panel1.Controls.Add(this.lbluser);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
@@ -203,6 +205,16 @@
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
+            // cerrarsesion
+            // 
+            this.cerrarsesion.Location = new System.Drawing.Point(697, 74);
+            this.cerrarsesion.Name = "cerrarsesion";
+            this.cerrarsesion.Size = new System.Drawing.Size(103, 23);
+            this.cerrarsesion.TabIndex = 7;
+            this.cerrarsesion.Text = "Cerrar sesion";
+            this.cerrarsesion.UseVisualStyleBackColor = true;
+            this.cerrarsesion.Click += new System.EventHandler(this.cerrarsesion_Click);
+            // 
             // interfaz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -244,5 +256,6 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label lbluser;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button cerrarsesion;
     }
 }

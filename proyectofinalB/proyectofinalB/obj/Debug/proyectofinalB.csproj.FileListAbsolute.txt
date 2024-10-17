@@ -12,3 +12,5 @@ C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofin
 C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.UClibros.resources
 C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.UCreserva.resources
 C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.registro.resources
+C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.UCregistro.resources
+C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.registro2.resources
