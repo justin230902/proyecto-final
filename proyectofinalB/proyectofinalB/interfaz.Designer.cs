@@ -215,6 +215,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "interfaz";
             this.Load += new System.EventHandler(this.interfaz_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.interfaz_MouseDown);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

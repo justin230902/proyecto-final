@@ -49,12 +49,16 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.btnlibrosatras = new System.Windows.Forms.Button();
+            this.btncerrardashboard = new System.Windows.Forms.PictureBox();
+            this.btnminimizardashboard = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncerrardashboard)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnminimizardashboard)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -62,7 +66,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.PapayaWhip;
-            this.label1.Location = new System.Drawing.Point(359, 31);
+            this.label1.Location = new System.Drawing.Point(359, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(86, 29);
             this.label1.TabIndex = 0;
@@ -275,11 +279,36 @@
             this.btnlibrosatras.UseVisualStyleBackColor = false;
             this.btnlibrosatras.Click += new System.EventHandler(this.btnlibrosatras_Click);
             // 
+            // btncerrardashboard
+            // 
+            this.btncerrardashboard.Image = ((System.Drawing.Image)(resources.GetObject("btncerrardashboard.Image")));
+            this.btncerrardashboard.Location = new System.Drawing.Point(780, 0);
+            this.btncerrardashboard.Name = "btncerrardashboard";
+            this.btncerrardashboard.Size = new System.Drawing.Size(20, 20);
+            this.btncerrardashboard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btncerrardashboard.TabIndex = 24;
+            this.btncerrardashboard.TabStop = false;
+            this.btncerrardashboard.Click += new System.EventHandler(this.btncerrardashboard_Click);
+            // 
+            // btnminimizardashboard
+            // 
+            this.btnminimizardashboard.Image = ((System.Drawing.Image)(resources.GetObject("btnminimizardashboard.Image")));
+            this.btnminimizardashboard.Location = new System.Drawing.Point(754, 0);
+            this.btnminimizardashboard.Name = "btnminimizardashboard";
+            this.btnminimizardashboard.Size = new System.Drawing.Size(20, 20);
+            this.btnminimizardashboard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnminimizardashboard.TabIndex = 23;
+            this.btnminimizardashboard.TabStop = false;
+            this.btnminimizardashboard.Click += new System.EventHandler(this.btnminimizardashboard_Click);
+            // 
             // UClibros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SaddleBrown;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btncerrardashboard);
+            this.Controls.Add(this.btnminimizardashboard);
             this.Controls.Add(this.btnlibrosatras);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -300,15 +329,18 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "UClibros";
-            this.Size = new System.Drawing.Size(800, 450);
             this.Load += new System.EventHandler(this.UClibros_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.UClibros_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncerrardashboard)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnminimizardashboard)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -336,5 +368,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button btnlibrosatras;
+        private System.Windows.Forms.PictureBox btncerrardashboard;
+        private System.Windows.Forms.PictureBox btnminimizardashboard;
     }
 }

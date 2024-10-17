@@ -8,10 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+
 namespace proyectofinalB
 {
-    public partial class UClibros : UserControl
+    public partial class UClibros : Form 
     {
+        
         public UClibros()
         {
             InitializeComponent();
@@ -36,6 +39,23 @@ namespace proyectofinalB
         {
             this.Hide();
             
+        }
+
+        private void btnminimizardashboard_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+
+        }
+
+        private void btncerrardashboard_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
+
+        private void UClibros_MouseDown(object sender, MouseEventArgs e)
+        {
+           
         }
     }
 }

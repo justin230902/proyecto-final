@@ -8,8 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+
 namespace proyectofinalB
 {
+
     public partial class interfaz : Form
     {
         private string _Usuario;
@@ -18,6 +21,7 @@ namespace proyectofinalB
             InitializeComponent();
             _Usuario = textuser;
         }
+        
 
         public interfaz()
         {
@@ -58,6 +62,11 @@ namespace proyectofinalB
             uCreserva.Show();
             this.Controls.Add(uCreserva);
             uCreserva.BringToFront();
+        }
+
+        private void interfaz_MouseDown(object sender, MouseEventArgs e)
+        {
+           
         }
     }
 }

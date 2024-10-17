@@ -7,9 +7,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Runtime.InteropServices;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+using System.Windows.Forms;using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace proyectofinalB
 {
@@ -111,6 +109,11 @@ namespace proyectofinalB
         }
 
         private void textuser_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void login_Load(object sender, EventArgs e)
         {
 
         }
