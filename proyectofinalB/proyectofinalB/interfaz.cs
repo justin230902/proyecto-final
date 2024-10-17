@@ -31,7 +31,6 @@ namespace proyectofinalB
         {
             UClibros uClibros = new UClibros();
             uClibros.Show();
-            this.Controls.Add(uClibros);
             uClibros.BringToFront();
         }
 
@@ -60,13 +59,17 @@ namespace proyectofinalB
         {
             UCreserva uCreserva = new UCreserva();
             uCreserva.Show();
-            this.Controls.Add(uCreserva);
             uCreserva.BringToFront();
         }
 
         private void interfaz_MouseDown(object sender, MouseEventArgs e)
         {
            
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

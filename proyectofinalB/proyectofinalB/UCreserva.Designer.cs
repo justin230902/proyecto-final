@@ -95,6 +95,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "UCreserva";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.UCreserva_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.UCreserva_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.btncerrardashboard)).EndInit();
