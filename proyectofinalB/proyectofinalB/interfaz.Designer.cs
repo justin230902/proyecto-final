@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(interfaz));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cerrarsesion = new System.Windows.Forms.Button();
             this.lbluser = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -42,7 +43,6 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.cerrarsesion = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrardashboard)).BeginInit();
@@ -55,7 +55,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.PapayaWhip;
-            this.panel1.Controls.Add(this.cerrarsesion);
             this.panel1.Controls.Add(this.lbluser);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
@@ -68,6 +67,21 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 100);
             this.panel1.TabIndex = 0;
+            // 
+            // cerrarsesion
+            // 
+            this.cerrarsesion.BackColor = System.Drawing.Color.PapayaWhip;
+            this.cerrarsesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cerrarsesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cerrarsesion.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.cerrarsesion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.cerrarsesion.Location = new System.Drawing.Point(652, 415);
+            this.cerrarsesion.Name = "cerrarsesion";
+            this.cerrarsesion.Size = new System.Drawing.Size(136, 23);
+            this.cerrarsesion.TabIndex = 7;
+            this.cerrarsesion.Text = "Cerrar sesion";
+            this.cerrarsesion.UseVisualStyleBackColor = false;
+            this.cerrarsesion.Click += new System.EventHandler(this.cerrarsesion_Click);
             // 
             // lbluser
             // 
@@ -148,14 +162,11 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.PapayaWhip;
-            this.panel2.Controls.Add(this.btnreserva);
-            this.panel2.Controls.Add(this.pictureBox5);
             this.panel2.Controls.Add(this.button1);
-            this.panel2.Controls.Add(this.pictureBox4);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel2.Location = new System.Drawing.Point(0, 100);
+            this.panel2.Controls.Add(this.btnreserva);
+            this.panel2.Location = new System.Drawing.Point(0, 277);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(156, 350);
+            this.panel2.Size = new System.Drawing.Size(800, 39);
             this.panel2.TabIndex = 1;
             // 
             // btnreserva
@@ -163,7 +174,7 @@
             this.btnreserva.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnreserva.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnreserva.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnreserva.Location = new System.Drawing.Point(3, 308);
+            this.btnreserva.Location = new System.Drawing.Point(506, 3);
             this.btnreserva.Name = "btnreserva";
             this.btnreserva.Size = new System.Drawing.Size(150, 29);
             this.btnreserva.TabIndex = 5;
@@ -174,7 +185,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(3, 184);
+            this.pictureBox5.Location = new System.Drawing.Point(506, 156);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(150, 118);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -186,7 +197,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.button1.Location = new System.Drawing.Point(3, 149);
+            this.button1.Location = new System.Drawing.Point(126, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(150, 29);
             this.button1.TabIndex = 3;
@@ -197,7 +208,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(3, 25);
+            this.pictureBox4.Location = new System.Drawing.Point(126, 153);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(150, 118);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -205,24 +216,17 @@
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // cerrarsesion
-            // 
-            this.cerrarsesion.Location = new System.Drawing.Point(697, 74);
-            this.cerrarsesion.Name = "cerrarsesion";
-            this.cerrarsesion.Size = new System.Drawing.Size(103, 23);
-            this.cerrarsesion.TabIndex = 7;
-            this.cerrarsesion.Text = "Cerrar sesion";
-            this.cerrarsesion.UseVisualStyleBackColor = true;
-            this.cerrarsesion.Click += new System.EventHandler(this.cerrarsesion_Click);
-            // 
             // interfaz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SaddleBrown;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cerrarsesion);
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "interfaz";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
