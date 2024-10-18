@@ -1,0 +1,39 @@
+C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\bin\Debug\proyectofinalB.exe.config
+C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\bin\Debug\proyectofinalB.exe
+C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\bin\Debug\proyectofinalB.pdb
+C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.csproj.AssemblyReference.cache
+C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.Properties.Resources.resources
+C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.csproj.GenerateResource.cache
+C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.csproj.CoreCompileInputs.cache
+C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.exe
+C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.pdb
+C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.login.resources
+C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.interfaz.resources
+C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.UClibros.resources
+C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.UCreserva.resources
+C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.registro.resources
+C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.UCregistro.resources
+C:\Users\Justin\source\repos\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.registro2.resources
+C:\Users\luiso\Downloads\proyecto-final-main\proyecto-final-main\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.csproj.AssemblyReference.cache
+C:\Users\luiso\Downloads\proyecto-final-main\proyecto-final-main\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.exe
+C:\Users\luiso\Downloads\proyecto-final-main\proyecto-final-main\proyectofinalB\proyectofinalB\obj\Debug\proyectofinalB.pdb
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\bin\Debug\proyectofinalB.exe.config
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\bin\Debug\proyectofinalB.exe
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\bin\Debug\proyectofinalB.pdb
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\bin\Debug\Dapper.dll
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\bin\Debug\System.Data.SQLite.dll
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\bin\Debug\Dapper.xml
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\bin\Debug\System.Data.SQLite.xml
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\obj\Debug\proyectofinalB.csproj.AssemblyReference.cache
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\obj\Debug\proyectofinalB.login.resources
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\obj\Debug\proyectofinalB.interfaz.resources
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\obj\Debug\proyectofinalB.Properties.Resources.resources
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\obj\Debug\proyectofinalB.registro.resources
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\obj\Debug\proyectofinalB.UClibros.resources
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\obj\Debug\proyectofinalB.UCregistro.resources
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\obj\Debug\proyectofinalB.UCreserva.resources
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\obj\Debug\proyectofinalB.csproj.GenerateResource.cache
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\obj\Debug\proyectofinalB.csproj.CoreCompileInputs.cache
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\obj\Debug\proyecto.FCA8E351.Up2Date
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\obj\Debug\proyectofinalB.exe
+C:\Users\Justin\Documents\Software Develop\biblioteca\proyectofinalB\obj\Debug\proyectofinalB.pdb
